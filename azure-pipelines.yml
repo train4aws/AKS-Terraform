@@ -19,5 +19,5 @@ steps:
   displayName: Terraform Plan
   inputs:
     command: 'plan'
-    environmentServiceName: 'Iaas Migrations-Staging Subscription(c3bffe7f-e643-4393-ae69-ab6e9fd0668f)'
+    environmentServiceName: 'Microsoft Azure(8b211a8c-9d7f-43af-947e-84eb3ef00e8d)'
     allowTelemetryCollection: false
