@@ -12,7 +12,7 @@ subnetcidr = ["10.0.0.0/25"]
 
 keyvault_rg = "aks-rg"
 
-keyvault_name = "dheeman-vault"
+keyvault_name = "wxyz"
 
 azure_region = "eastus"
 
