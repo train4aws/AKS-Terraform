@@ -11,14 +11,13 @@ pool:
 
 steps:
 - task: TerraformCLI@0
-  displayName: Terraform init
+  displayName: Terraform Init
   inputs:
     command: 'init'
     allowTelemetryCollection: true
-
 - task: TerraformCLI@0
   displayName: Terraform Plan
   inputs:
     command: 'plan'
-    environmentServiceName: 'AKS'
+    environmentServiceName: 'Iaas Migrations-Staging Subscription(c3bffe7f-e643-4393-ae69-ab6e9fd0668f)'
     allowTelemetryCollection: false
